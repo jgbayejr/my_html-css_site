@@ -1,2 +1,1 @@
-# my_html-css_site
-My first journey on GitHub
+# My first project with html_css on GitHub
