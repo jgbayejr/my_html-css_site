@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<meta name="viewpoint">
+<content="width=device-width initial-scale=1">
+
+body {font-family: verdana, sans-serif;margin: 0}
+
+.slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+}
+.prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 0;
+   top: 50%
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   translation: 0.6s ease
+   border-radius: 0 3px 3px 0;
+}
+.next {
+   right: 0;
+   border-radius: 0 3px 3px 0;>
+.prev: hover, .next: hover   {
+     background-color: rgba (0, 0, 0, 0, 0.8);
+}
+
+<div class="slideshow-container">
+    <div class="myslides fade">
+        <div class="numbertext"> 1 / 5</div>
+           <img src=./images/satellite.png  wide="1000px" height="400px;">
+               <div class="text"> Satellite</div>
+
+<div class="myslides fade">
+        <div class="numbertext"> 2 / 5</div>
+           <img src=./images/XP.png  wide="1000px" height="400px;">
+               <div class="text"> Window XP</div>
+
+<div class="myslides fade">
+        <div class="numbertext"> 3 / 5</div>
+           <img src=./images/XPstar.png  wide="1000px" height="400px;">
+               <div class="text">Windows XP Star</div>
+
+<div class="myslides fade">
+        <div class="numbertext"> 4 / 5</div>
+           <img src=./images/Erupting.png  wide="1000px" height="400px;">
+               <div class="text"> Power of Tech</div>
+
+<div class="myslides fade">
+        <div class="numbertext"> 5 / 5</div>
+           <img src=./images/Sunset.png  wide="1000px" height="400px;">
+               <div class="text"> Gallary</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+	<br>
+<div style="text-align:center;">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+     <span class="dot" onclick="currentSlide(4)"></span>
+     <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+.slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+}
+.prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 0;
+   top: 50%
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   translation: 0.6s ease
+   border-radius: 0 3px 3px 0;
+}
+.next {
+   right: 0;
+   border-radius: 0 3px 3px 0;>
+</body>
+</html>
